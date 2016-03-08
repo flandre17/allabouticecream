@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background-image:url("icecream.jpg");
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: purple;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+  display: inline-block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    
+    font-family: Impact, Charcoal, sans-serif;
+}
+h2{
+    text-align:center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+</head>
+<link href="../0205/style.css" media="all" rel="stylesheet" »
+      type="text/css" />
+<body>
+<h2>All about icecream</h2>
+<ul>
+  
+<div class="dropdown">
+  <button class="dropbtn">Flavor</button>
+  <div class="dropdown-content">
+    <a href="#">Chocolate</a>
+    <a href="#">Mint</a>
+    <a href="#">Vanilla</a>
+  </div>
+</div>
+
+
+
+
+  <div class="dropdown">
+  <button class="dropbtn">Brand</button>
+  <div class="dropdown-content">
+    <a href="#">Haagen-Dazs</a>
+    <a href="#">Ben and Jerry's</a>
+    <a href="#">Cold Stone</a>
+  </div>
+
+</div>
+  <div class="dropdown">
+  <button class="dropbtn">About</button>
+  <div class="dropdown-content">
+    <a href="#">The origin of ice Cream</a>
+    <a href="#">Story of ice Cream</a>
+    <a href="#">Fun facts</a>
+  </div>
+
+</div>
+    <div class="dropdown">
+  <button class="dropbtn">Places for Ice Cream</button>
+  <div class="dropdown-content">
+    <a href="#">Switzerland</a>
+    <a href="#">France</a>
+    <a href="#">Italy</a>
+    <a href="#">Britain</a>
+  </div>
+
+</div>
+
+
+
+
+</ul>
+
+</body>
+</html>

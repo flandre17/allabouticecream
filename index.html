@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background-image:url("icecream.jpg");
+     background-repeat: no-repeat;
+    background-size: cover;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: purple;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  display: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    
+    font-family: Impact, Charcoal, sans-serif;
+}
+h2{
+    text-align: middle;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+</style>
+</head>
+<link href="../0205/style.css" media="all" rel="stylesheet" »
+      type="text/css" />
+<body>
+
+<h2>All about icecream</h2>
+<p>What Flavor Do You Like?
+
+<div class="dropdown">
+  <button class="dropbtn">Flavor</button>
+  <div class="dropdown-content">
+    <a href="#">Chocolate</a>
+    <a href="#">Mint</a>
+    <a href="#">Vanilla</a>
+  </div>
+</div>
+</p>
+
+<p>What brand do you like?
+
+<div class="dropdown">
+  <button class="dropbtn">Brand</button>
+  <div class="dropdown-content">
+    <a href="#">Haagen-Dazs</a>
+    <a href="#">Ben and Jerry's</a>
+    <a href="#">Cold Stone</a>
+  </div>
+
+</div>
+
+</p>
+
+</body>
+</html>
